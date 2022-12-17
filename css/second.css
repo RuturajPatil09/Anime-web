@@ -1,0 +1,182 @@
+body {
+    margin-left: 0px;
+    padding: 5px;
+    background-image: url("../img/background.jpg");
+    box-sizing: border-box;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-left: 650px;
+    margin-bottom: -180px;
+    width: 100%;
+    min-height: 0vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url("../img/background.jpg");
+}
+
+.search-bar {
+    width: 500px;
+    max-width: 700px;
+    display: flex;
+    background: rgba(255,255,255,0.2);
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturated(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+.searchbtn {
+    margin-left: 10px;
+    border-radius: 100px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+.searchbtn img {
+    height: 20px;
+}
+
+.heading {
+    margin-left: 220px;
+    margin-top: -00px;
+    background-color: orange;
+    font-size: 150px;
+    width: 1295px;
+}
+
+.content {
+    margin-left: 220px;
+    margin-top: -250px;
+    color: red;
+}
+
+.post .title {
+    margin-left: -30px;
+    overflow:hidden;
+    padding-top: 0px;
+    width: 5000px;
+}
+
+.post .title h2 a{
+    color:red;
+    font-size: 2.4em;
+    font-weight: bold;
+    line-height: 0em;
+    margin-left: -30px;
+    overflow:hidden;
+    padding-top: 0px;
+    width: 1000px;
+    
+}
+
+.post .text-box {
+    font-size:1.50em;
+    line-height:1.5em;
+    overflow:hidden;
+    width:1300px;
+    color: red;
+}
+.post .text-box img {
+    height: 600px;
+    width: 1200px;
+}
+
+.sidebar {
+    position: fixed;
+    background: black;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2 {
+    font-size:20px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar ul li{
+    margin: 25px 0;
+}
+
+.sidebar ul li a {
+    color:red;
+    padding: 0 30px;
+}
+.sidebar ul li a:hover{
+    color: white;
+    margin-left: 10px;
+    transition: 0s;
+}
+
+.comments a {
+    font-size:1.50em;
+    line-height:1.5em;
+    overflow:hidden;
+    width:1300px;
+    color: red;
+}
+
+.contactno{
+    padding: 0px 500px;
+    height: 50px;
+    width: 1000px;
+    color: rgb(249, 6, 6);
+    border: black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.Feedback{
+    padding: 0px 500px;
+    height: 50px;
+    width: 1000px;
+    color: rgb(252, 4, 4);
+    border: black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.aboutus{
+    padding: 0px 500px;
+    height: 46px;
+    width: 800px;
+    color: rgb(252, 4, 4);
+    border: black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    position: relative;
+    margin-top:610px;
+    clear: both;
+}
+.footer ul {
+    color: white;
+    text-align: center;
+}
